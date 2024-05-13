@@ -6,9 +6,9 @@ Display mode-line content in tab-bar.
 
 * Install
 
-This is not yet in either Elpa nor Melpa, so currently you will have to either clone this repository or just download raw global-mode-line.el somewhere where your Emacs can find it.
+This is not in either Elpa nor Melpa, so you will have to either clone this repository or just download raw global-mode-line.el somewhere where your Emacs can find it.
 
-If you clone this repository, you can install globel-mode-line.el via M-x package-install-file.
+If you have cloned this repository, you can also install global-mode-line.el via M-x package-install-file.
 
 * Usage
 
@@ -16,7 +16,7 @@ To enable/disable dired-auto-readme-mode: M-x global-mode-line-mode.
 
 * Known Problems
 
-This mode uses tab-bar to display mode-line, so you can't use this with tab-bar mode.
+This mode uses tab-bar to display mode-line, so you can't use this if you would like to use tab-bar mode for what it is intended :).
 
 If you like to use mouse with your mode-line and click on various interactive elements, don't use this either, since this looses all the interactivity of mode-line.
 
@@ -24,7 +24,9 @@ Unless your Emacs is configured to display horizontal scrollbars, you will also 
 
 * About
 
-I made this as an answer to an anonymous question on Reddit, and is really just a small prototype of an idea.
+I made this as an answer to an anonymous question on Reddit, and is really just a small test of an idea, don't rely on this to be fool-prof and without bugs.
+
+If you manage to somehow fix good, thin-line (1px wide) rendering of mode-line, please let me know, and if you have bug fixes, improvements, etc, it is free to open PR or an issue.
 
 * License
 
